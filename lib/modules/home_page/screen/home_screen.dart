@@ -72,9 +72,12 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               const SizedBox(
-                height: 12.0,
+                height: 16.0,
               ),
               const FoodSliderWidget(),
+              const SizedBox(
+                height: 16.0,
+              ),
             ],
           ),
         ),
