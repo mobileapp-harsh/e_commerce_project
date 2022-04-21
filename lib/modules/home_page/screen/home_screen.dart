@@ -74,9 +74,11 @@ class _HomeScreenState extends State<HomeScreen> {
               const SizedBox(
                 height: 16.0,
               ),
-              const FoodSliderWidget(),
-              const SizedBox(
-                height: 16.0,
+              const Expanded(
+                child: SingleChildScrollView(
+                  physics: BouncingScrollPhysics(),
+                  child: FoodSliderWidget(),
+                ),
               ),
             ],
           ),

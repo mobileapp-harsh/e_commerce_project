@@ -16,7 +16,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Timer(const Duration(seconds: 3), (){
-      Get.offAndToNamed(AppRoutes.HOME_SCREEN);
+      Get.offAndToNamed(AppRoutes.POPULAR_FOOD_DETAILS_SCREEN);
     });
   }
 
